@@ -19,7 +19,7 @@ const PageTransition = ({ children }) => {
                         ease: "easeIn"
                     }
                 }}
-                className='w-screen h-screen fixed z-30 bg-white top-0 pointer-events-none'
+                className='w-screen h-screen fixed z-30 xl:z-40 bg-white top-0 pointer-events-none'
             />
 
             {children}
